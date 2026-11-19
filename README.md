@@ -2,6 +2,10 @@
 
 Esercizio C++: chiede quanti valori inserire, legge una lista di numeri interi e stampa media, somma, massimo e minimo.
 
+## Versioni
+
+- [v0.1-alpha](versions.md) — scarica l'eseguibile
+
 ## File
 
 - `primo_vettore_v0.1-alpha.exe` — eseguibile Windows, compilato in modo statico (non serve Dev-C++ per avviarlo).
