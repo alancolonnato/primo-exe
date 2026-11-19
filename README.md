@@ -1,20 +1,21 @@
-# Primo .exe — v0.5
+# Primo .exe — v1.0
 
 Esercizio C++ con interfaccia grafica: inserisci una lista di numeri separati da spazio, clicca "Calcola" e leggi media, somma, massimo, minimo e numero di valori.
 
-La **v0.5** usa la vera sprite animata di Nyan Cat (20 frame, scia arcobaleno, sfondo trasparente) presa da Tenor, e come musica il file `LockChime.wav` fornito da Max, incorporato nell'eseguibile. Il pulsante **Audio** attiva/disattiva il suono. I gatti rimbalzano veloci sui bordi e la finestra si adatta a qualunque monitor.
+La **v1.0** usa la vera sprite animata di Nyan Cat (20 frame, scia arcobaleno) presa da Tenor e la musica `LockChime.wav`, entrambi incorporati. Gli sprite si ridimensionano insieme alla finestra, i gatti rimbalzano veloci e il pulsante **Audio** attiva/disattiva il suono.
+
+## Download
+
+Ultima versione: [v1.0](https://github.com/alancolonnato/primo-exe/releases/tag/v1.0) — [eseguibile .exe](https://github.com/alancolonnato/primo-exe/releases/download/v1.0/primo_vettore_v1.0_gui.exe)
 
 ## Versioni
 
-Vedi [versions.md](versions.md) per il dettaglio e i download.
+Vedi [versions.md](versions.md) per lo storico completo.
 
 ## File
 
-- `primo_vettore_v0.5_gui.exe` — v0.5 con sprite Tenor e LockChime.wav.
-- `primo_vettore_v0.5_gui.cpp` — sorgente autonomo della v0.5 (sprite e audio inclusi).
-- `primo_vettore_v0.4_gui.exe` / `.cpp` — gatti disegnati a mano e chiptune generato.
-- `primo_vettore_v0.3_gui.exe` / `.cpp` — sfondo Nyan animato, resize responsive.
-- `primo_vettore_v0.2_gui.exe` / `.cpp` — interfaccia grafica basica.
-- `primo_vettore_v0.1-alpha.exe` / `.cpp` — prima versione a riga di comando.
+- `primo_vettore_v1.0_gui.exe` — eseguibile Windows autonomo.
+- `primo_vettore_v1.0_gui.cpp` — sorgente autonomo (sprite e audio inclusi).
+- Le versioni precedenti sono nelle [release](https://github.com/alancolonnato/primo-exe/releases).
 
 Compilato con Embarcadero Dev-C++ 6.3 (TDM-GCC 9.2.0).
